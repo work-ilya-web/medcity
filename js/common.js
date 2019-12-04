@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    timer();
+
+    sliderRun(); // запускаем промо слайдер
+
 	// Address visible
     if ($(".header-address__caption").length > 0) {
         $(".header-address__caption").click(function(){
@@ -41,6 +43,8 @@ $(document).ready(function () {
 	    $('.promo-arrow').click(function (event) {
 	        $(this).parents('.promo').find('.promo__slick').slick('slickNext');
             $(".progress-slider").html('<span></span>');
+            $('.promo__slick--js').attr('data-step', 1);
+
 	    });
 	    $('.promo__slick').on('afterChange', function(event, slick, currentSlide){
 			productsliderinfo();
@@ -201,24 +205,22 @@ $(document).ready(function () {
 });
 
 // timer slider
-function timer() {
-    var step = 1;
-    setInterval(function () {
+function sliderRun() {
+
+     setInterval(function () {
+        var step = parseInt($('.promo__slick--js').attr('data-step'));
         var widthPromoBtn = $(".progress-slider>span").width();
         var progressSliderWidth = $(".progress-slider").width();
-        step++;
+
         if (step < 101) {
             $(".progress-slider>span").css('width',''+step+'%');
             $('.promo-arrow__icon').attr('class',' promo-arrow__icon c100 p'+step);
+            $('.promo__slick--js').attr('data-step', step + 1);
         } else {
-            step = 1;
-
+            $('.promo__slick--js').attr('data-step', 1);
             $('.slick-active .promo-arrow').click();
             $(".progress-slider").html('<span></span>');
         }
-
-
-
 
     }, 100);
 }
