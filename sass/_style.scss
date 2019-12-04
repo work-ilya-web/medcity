@@ -396,7 +396,7 @@ a.capabilities__coll:hover .capabilities__arrow {
 	height: 808px;
 	z-index: 10;
 }
-.main-doctor__img:after {
+.main-doctor__after {
 	content: "";
 	position: absolute;
 	width: 600px;
@@ -406,6 +406,12 @@ a.capabilities__coll:hover .capabilities__arrow {
     left: calc(50% - 300px);
 	border-radius: 50%;
 	z-index: -1;
+    transform: scale(0.6);
+    transition: transform 1s;
+}
+.main-doctor__after.active {
+    transform: scale(1);
+    transition: transform 1s;
 }
 .main-doctor__img img {
 	width: 100%;
@@ -565,6 +571,16 @@ a.capabilities__coll:hover .capabilities__arrow {
 	left: 60px;
 	bottom: -5px;
     width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translate(20px, 20px);
+    transition-delay: 0.2s;
+}
+.active .services-top__caption {
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translate(0px,0px);
+    transition-delay: 0.2s;
 }
 .services-top__block_2 .services-top__caption {
 	left: 0px;
@@ -1507,6 +1523,7 @@ color: #74828E;
 	border-radius: 6px;
 	align-items: flex-start;
 	justify-content: flex-start;
+
 }
 .subscription__link {
 	display: block;
@@ -1542,11 +1559,19 @@ color: #74828E;
 	bottom: 0px;
 	right: 159px;
 	padding: 0px 31px 0px 35px;
+    overflow: hidden;
+
 }
 .subscription__img img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+    transform: translate(0px, 100px);
+    transition: transform 0.5s;
+}
+.subscription__img img.active {
+    transition: transform 0.5s;
+    transform: translate(0px, 0px);
 }
 @media (max-width: 1250px) {
 	.subscription__wrap {
