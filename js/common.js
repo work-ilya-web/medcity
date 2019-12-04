@@ -228,7 +228,8 @@ function sliderRun() {
         var progressSliderWidth = $(".progress-slider").width();
 
         if (step < 101) {
-            $(".progress-slider>span").css('width', '' + step + '%');
+            var linePercent = 100 - step;
+            $(".progress-slider>span").css('transform', 'translateX(-' + linePercent + '%)');
             $('.promo-arrow__icon').attr('class', ' promo-arrow__icon c100 p' + step);
             $('.promo__slick--js').attr('data-step', step + 1);
         } else {

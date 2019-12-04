@@ -93,6 +93,8 @@
     width: 100%;
     background: #4493F2;
     transition: all .3s;
+    transform: translateX(-100%);
+    transform-origin: right;
 }
 .promo-line-1 svg, .promo-line-2 svg {
 	max-width: 100%;

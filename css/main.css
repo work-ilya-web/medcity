@@ -2292,7 +2292,13 @@ p {
   background: #4493F2;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
-  transition: all .3s; }
+  transition: all .3s;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  transform-origin: right; }
 
 .promo-line-1 svg, .promo-line-2 svg {
   max-width: 100%; }
