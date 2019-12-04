@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="libs/fancybox/fancybox.css">
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="libs/datepicker/datepicker.min.css">
+    <link rel="stylesheet" href="libs/select2/select2.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    
+    <header class="header">
+        <div class="header__wrap flex">
+            <div class="header__first flex">
+                <div class="header__burger"><span></span></div>
+                <a href="#" class="header__logo">
+                    <img src="images/header/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="menu__mobile">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Направления</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Врачи</a></li>
+                        <li><a href="#">Оборудование</a></li>
+                        <li><a href="#">3D тур по клинике</a></li>
+                        <li><a href="#">Преимущества</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Записаться на прием</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <nav class="header__menu">
+                    <ul>
+                        <li><a href="#">Стоматология</a></li>
+                        <li><a href="#">Косметология</a></li>
+                        <li><a href="#">Медицинские услуги</a></li>
+                    </ul>
+                </nav>
+                <div class="header__phone header__phone_mobile flex">
+                    <a href="tel:+7 (495) 005-94-68">+7 (495) 005-94-68</a>
+                </div>
+                <a href="#" class="header__btn header__btn_mobile btn btn_dark" data-src="#callback-modal" data-fancybox data-modal="true">Запись на прием</a>
+            </div>
+            <div class="header__last flex">
+                <div class="header-address">
+                    <div class="header-address__caption">
+                        <img src="images/header/location.svg" alt="">
+                        <span>г. Подольск</span>
+                    </div>
+                    <div class="header-address__desc">
+                        <small>адрес клиники</small>
+                        <span>Подольск, ул. Академика Доллежаля д.4</span>
+                    </div>
+                </div>
+                <div class="header__phone flex">
+                    <img src="images/header/phone.svg" alt="">
+                    <a href="tel:+7 (495) 005-94-68">+7 (495) 005-94-68</a>
+                </div>
+                <a href="#" class="header__btn btn" data-src="#callback-modal" data-fancybox data-modal="true">Запись на прием</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="promo">
+        <div class="wrapper">
+            <div class="promo__info">
+                <div class="promo__info-number">01</div>
+                <span>—</span>
+                <div class="promo__info-box"></div>
+            </div>
+            <div class="promo__slick">
+                <div class="promo__slide">
+                    <div class="promo__wrap flex">
+                        <div class="promo__left">
+                            <div class="promo__title h1">Клиника семейнoгo здoрoвья</div>
+                            <div class="promo__desc">Лучшие врачи, современное оборудование, более 50 услуг по направлениям: стоматология, косметология, медецинская коммисия и лаборатория гемотест.</div>
+                            <div class="promo-arrow flex">
+                                <div class="promo-arrow__icon c100 p1">
+                                    <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#3C3F42"/>
+                                    </svg>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <div class="promo-arrow__caption">следующий</div>
+                            </div>
+                        </div>
+                        <div class="promo__img">
+                            <img src="images/promo/img-1.png" alt="">
+                            <div class="promo-line-1">
+                                <svg width="88" height="22" viewBox="0 0 88 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6187 18.0246C10.6187 18.0246 -11.3816 13.8221 7.95186 3.20198C20.495 -3.6884 41.76 2.18121 48.6189 5.57334C66.442 14.3879 74.5423 9.83892 75.2862 3.20172C75.5367 0.965674 75.7966 0.829832 77.2862 0.237187C78.8574 -0.388571 88.7598 0.736621 87.9534 4.38766C87.3268 7.21973 84.3813 15.4238 79.7211 18.2475C74.8147 21.2199 66.6375 24.1355 54.619 19.8033C39.1977 14.2453 26.0884 10.1193 19.2853 10.9096C11.6851 11.7926 10.6187 18.0246 10.6187 18.0246Z" fill="#4493F2"/>
+                                </svg>
+                            </div>
+                            <div class="promo-line-2">
+                                <svg width="154" height="40" viewBox="0 0 154 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M135.417 32.772C135.417 32.772 173.918 25.1312 140.084 5.82178C118.134 -6.70618 80.9199 3.96583 68.917 10.1333C37.7265 26.1599 23.551 17.889 22.2491 5.8213C21.8108 1.75577 21.356 1.50879 18.7492 0.43125C15.9996 -0.706492 -1.32961 1.33931 0.0815582 7.97756C1.17816 13.1268 6.33266 28.0433 14.4881 33.1774C23.0742 38.5816 37.3844 43.8828 58.4167 36.0061C85.404 25.9006 108.345 18.3988 120.251 19.8357C133.551 21.4411 135.417 32.772 135.417 32.772Z" fill="#4493F2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo__slide">
+                    <div class="promo__wrap flex">
+                        <div class="promo__left">
+                            <div class="promo__title h1">Клиника семейнoгo здoрoвья</div>
+                            <div class="promo__desc">Лучшие врачи, современное оборудование, более 50 услуг по направлениям: стоматология, косметология, медецинская коммисия и лаборатория гемотест.</div>
+                            <div class="promo-arrow flex">
+                                <div class="promo-arrow__icon c100 p1">
+                                    <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#3C3F42"/>
+                                    </svg>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <div class="promo-arrow__caption">следующий</div>
+                            </div>
+                        </div>
+                        <div class="promo__img">
+                            <img src="images/promo/img-2.png" alt="">
+                            <div class="promo-line-1">
+                                <svg width="88" height="22" viewBox="0 0 88 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6187 18.0246C10.6187 18.0246 -11.3816 13.8221 7.95186 3.20198C20.495 -3.6884 41.76 2.18121 48.6189 5.57334C66.442 14.3879 74.5423 9.83892 75.2862 3.20172C75.5367 0.965674 75.7966 0.829832 77.2862 0.237187C78.8574 -0.388571 88.7598 0.736621 87.9534 4.38766C87.3268 7.21973 84.3813 15.4238 79.7211 18.2475C74.8147 21.2199 66.6375 24.1355 54.619 19.8033C39.1977 14.2453 26.0884 10.1193 19.2853 10.9096C11.6851 11.7926 10.6187 18.0246 10.6187 18.0246Z" fill="#4493F2"/>
+                                </svg>
+                            </div>
+                            <div class="promo-line-2">
+                                <svg width="154" height="40" viewBox="0 0 154 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M135.417 32.772C135.417 32.772 173.918 25.1312 140.084 5.82178C118.134 -6.70618 80.9199 3.96583 68.917 10.1333C37.7265 26.1599 23.551 17.889 22.2491 5.8213C21.8108 1.75577 21.356 1.50879 18.7492 0.43125C15.9996 -0.706492 -1.32961 1.33931 0.0815582 7.97756C1.17816 13.1268 6.33266 28.0433 14.4881 33.1774C23.0742 38.5816 37.3844 43.8828 58.4167 36.0061C85.404 25.9006 108.345 18.3988 120.251 19.8357C133.551 21.4411 135.417 32.772 135.417 32.772Z" fill="#4493F2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progress-slider"><span></span></div>
+    </div>
+
+    <div class="capabilities">
+        <div class="wrapper">
+            <div class="capabilities__title">вы можете</div>
+            <div class="capabilities__mobile">
+                <div class="capabilities__row flex">
+                    <a href="#" class="capabilities__coll capabilities__coll_1" style="background-color: #FEFDE1;">
+                        <div class="capabilities__number">01</div>
+                        <div class="capabilities__caption">Записаться<br> на прием к врачу</div>
+                        <div class="capabilities__desc"></div>
+                        <div class="capabilities__img">
+                            <img src="images/capabilities/img-1.png" alt="">
+                        </div>
+                        <div class="capabilities__arrow">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#FFF"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="#" class="capabilities__coll capabilities__coll_2" style="background-color: #E1F3F8;">
+                        <div class="capabilities__number">02</div>
+                        <div class="capabilities__caption">Пройти<br> комплексное<br> обследование</div>
+                        <div class="capabilities__desc"></div>
+                        <div class="capabilities__img">
+                            <img src="images/capabilities/img-2.png" alt="">
+                        </div>
+                        <div class="capabilities__arrow">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#FFF"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="capabilities__coll capabilities__coll_3" style="background-color: #FFECEC;">
+                        <div class="capabilities__number">03</div>
+                        <div class="capabilities__caption">Записаться<br> на диагностику</div>
+                        <div class="capabilities__desc"></div>
+                        <div class="capabilities__img">
+                            <img src="images/capabilities/img-3.png" alt="">
+                        </div>
+                        <div class="capabilities__arrow">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#FFF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="capabilities__coll capabilities__coll_4" style="background-color: #E2F6D9;">
+                        <div class="capabilities__number">04</div>
+                        <div class="capabilities__caption">Записаться по<br> полису ДМС</div>
+                        <div class="capabilities__desc"></div>
+                        <div class="capabilities__img">
+                            <img src="images/capabilities/img-4.png" alt="">
+                        </div>
+                        <div class="capabilities__arrow">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#FFF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#" class="capabilities__coll capabilities__coll_5" style="background-color: #D9F6EC;">
+                        <div class="capabilities__number">05</div>
+                        <div class="capabilities__caption">Получить онлайн - консультацию</div>
+                        <div class="capabilities__desc">( телемедецина )</div>
+                        <div class="capabilities__img">
+                            <img src="images/capabilities/img-5.png" alt="">
+                        </div>
+                        <div class="capabilities__arrow">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#FFF"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-doctor">
+        <div class="wrapper">
+            <div class="main-doctor__wrap flex">
+                <div class="main-doctor__left">
+                    <div class="main-doctor__value">Главный врач</div>
+                    <h2 class="main-doctor__name">Бритвина Ксения Владимировна</h2>
+                    <div class="main-doctor__appeal">Уважаемые пациенты! В клинике широкий спектр услуг,  взрослым и детям мы оказываем все виды медицинской помощи. Диагностика, лечение и профилактика заболеваний по всем направлениям современной медицины.</div>
+                    <div class="main-doctor__podpis">
+                        <img src="images/main-doctor/podpis.png" alt="">
+                    </div>
+                    <a href="#" class="main-doctor__btn btn btn_items">
+                        <span>Все врачи</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6.14285" y1="1" x2="6.14285" y2="11" stroke="#74828E" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="11" y1="6.14282" x2="1" y2="6.14282" stroke="#74828E" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="main-doctor__img">
+                    <img src="images/main-doctor/img.png" alt="">
+                </div>
+                <div class="main-doctor__certificates">
+                    <a href="images/main-doctor/sert1.png" class="main-doctor__certificate" data-fancybox="certificate">
+                        <img src="images/main-doctor/sert1.png" alt="">
+                    </a>
+                    <a href="images/main-doctor/sert2.png" class="main-doctor__certificate" data-fancybox="certificate">
+                        <img src="images/main-doctor/sert2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="wrapper">
+            <div class="services__title h1"><span>Услуги <small>216</small></span></div>
+            <div class="services__wrap">
+                <div class="services-top">
+                    <div class="services-top__block services-top__block_1 active" style="background: linear-gradient(98.62deg, #6EACF7 9.27%, #76B1F9 94.99%);">
+                        <div class="services-top__img">
+                            <img src="images/services/img-1.png" alt="">
+                        </div>
+                        <div class="services-top__caption">
+                            <img src="images/services/caption-1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="services-top__block services-top__block_2" style="background: linear-gradient(98.62deg, #9ACCCB 9.27%, #9BCDCC 94.99%);">
+                        <div class="services-top__img">
+                            <img src="images/services/img-2.png" alt="">
+                        </div>
+                        <div class="services-top__caption">
+                            <img src="images/services/caption-2.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="services-top__block services-top__block_3" style="background: linear-gradient(98.62deg, #E1B4C9 9.27%, #FDC7E3 94.99%);">
+                        <div class="services-top__img">
+                            <img src="images/services/img-3.png" alt="">
+                        </div>
+                        <div class="services-top__caption">
+                            <img src="images/services/caption-3.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="services__tabs flex">
+                    <div class="services__tab services__tab_1 active">
+                        <span>Медицинские услуги</span>
+                        <small>12</small>
+                    </div>
+                    <div class="services__tab services__tab_2">
+                        <span>Стоматология</span>
+                        <small>34</small>
+                    </div>
+                    <div class="services__tab services__tab_3">
+                        <span>Косметология</span>
+                        <small>9</small>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div class="services__block active">
+                        <div class="services__item">
+                            <div class="services__items flex">
+                                <div class="services__number">01</div>
+                                <div class="services__caption">Терапия</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 460 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">02</div>
+                                <div class="services__caption">Кардиология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 700 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">03</div>
+                                <div class="services__caption">Дерматовенерология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 240 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">04</div>
+                                <div class="services__caption">Неврология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 400 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">05</div>
+                                <div class="services__caption">Эндокринология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 8 435 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">06</div>
+                                <div class="services__caption">Отоларингология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 4500 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">07</div>
+                                <div class="services__caption">Офтальмология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от  7100  рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">08</div>
+                                <div class="services__caption">Водительские справки</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 16500  рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">09</div>
+                                <div class="services__caption">Функциональная диагностика</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 1800   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">10</div>
+                                <div class="services__caption">Услуги процедурного кабинета</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 3500   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">11</div>
+                                <div class="services__caption">Офтальмологические манипуляции</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 1200   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">12</div>
+                                <div class="services__caption">Дерматологические манипуляции</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 2000   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">13</div>
+                                <div class="services__caption">Отоларгинологические манипуляции</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 7000   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text__center">
+                            <a href="#" class="services__price btn btn_green">
+                                <span>посмотреть полный прайс</span>
+                                <img src="images/services/price.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="services__item">
+                            <div class="services__items flex">
+                                <div class="services__number">01</div>
+                                <div class="services__caption">Терапия 2</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 460 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">02</div>
+                                <div class="services__caption">Кардиология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 700 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">03</div>
+                                <div class="services__caption">Дерматовенерология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 240 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">04</div>
+                                <div class="services__caption">Неврология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 400 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">05</div>
+                                <div class="services__caption">Эндокринология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 8 435 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">06</div>
+                                <div class="services__caption">Отоларингология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 4500 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">07</div>
+                                <div class="services__caption">Офтальмология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от  7100  рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text__center">
+                            <a href="#" class="services__price btn btn_green">
+                                <span>посмотреть полный прайс</span>
+                                <img src="images/services/price.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="services__block">
+                        <div class="services__item">
+                            <div class="services__items flex">
+                                <div class="services__number">01</div>
+                                <div class="services__caption">Терапия 3</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 460 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">02</div>
+                                <div class="services__caption">Кардиология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 700 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">03</div>
+                                <div class="services__caption">Дерматовенерология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 240 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">04</div>
+                                <div class="services__caption">Неврология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 400 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">05</div>
+                                <div class="services__caption">Эндокринология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 8 435 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">06</div>
+                                <div class="services__caption">Отоларингология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 4500 рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">07</div>
+                                <div class="services__caption">Офтальмология</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от  7100  рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">08</div>
+                                <div class="services__caption">Водительские справки</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 16500  рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">09</div>
+                                <div class="services__caption">Функциональная диагностика</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 1800   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                            <div class="services__items flex">
+                                <div class="services__number">10</div>
+                                <div class="services__caption">Услуги процедурного кабинета</div>
+                                <div class="services__items-block">
+                                    <div class="services__price">от 3500   рублей</div>
+                                    <a href="#" class="services__btn btn btn_blue">Консультация</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text__center">
+                            <a href="#" class="services__price btn btn_green">
+                                <span>посмотреть полный прайс</span>
+                                <img src="images/services/price.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="doctors">
+        <div class="wrapper">
+            <div class="doctors__caption">специалисты</div>
+            <div class="doctors__top flex">
+                <div class="doctors__title h2">9 врачей с опытом более 7 лет</div>
+                <div class="doctors__subtitle">Все специалисты в обязательном порядке проходят курсы повышения квалификации раз в 5 лет на самых престижных кафедрах города</div>
+            </div>
+            <div id="doctors" class="doctors__slide">
+                <div class="doctors__wrap swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-1.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Юлия Рамисовна Труханова</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-2.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Фотин Сергей Владимирович</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-3.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Сарычева Анна Евгеньевна</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-4.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Ракова Юлия Викторовна</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-5.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Одинокова </div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-6.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Нестерова Евгения Юрьевна</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-7.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Магомедова Насибат</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-8.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Бритвина Ксения Владимировна</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                        <div class="doctors__card swiper-slide">
+                            <div class="doctors__img">
+                                <img src="images/doctors/img-9.jpg" alt="">
+                            </div>
+                            <div class="doctors__box">
+                                <div class="doctors__name">Антонова Виктория Валерьевна</div>
+                                <div class="doctors__profession">Врач-стоматолог ортопед</div>
+                                <div class="doctors__experience">Стаж —21 год</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipment">
+        <div class="wrapper wrapper_big">
+            <div class="equipment__top flex">
+                <div class="equipment__caption">оборудование</div>
+                <div class="equipment__title h2">Работаем на современном оборудование мирового класса</div>
+            </div>
+            <div class="equipment__slick">
+                <div class="equipment__slide">
+                    <div class="equipment__wrap flex">
+                        <div class="equipment__img">
+                            <img src="images/equipment/img-1.png" alt="">
+                        </div>
+                        <div class="equipment__box">
+                            <div class="equipment__info">
+                                <div class="equipment__info-number">01</div>
+                                <span>—</span>
+                                <div class="equipment__info-box"></div>
+                            </div>
+                            <div class="equipment__title-slide">Ультразвуковая диагностическая система Mindray DC-7</div>
+                            <div class="equipment-arrow flex">
+                                <div class="equipment-arrow__icon c100 p1">
+                                    <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#3C3F42"/>
+                                    </svg>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <div class="equipment-arrow__caption">следующий</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="equipment__slide">
+                    <div class="equipment__wrap flex">
+                        <div class="equipment__img">
+                            <img src="images/equipment/img-1.png" alt="">
+                        </div>
+                        <div class="equipment__box">
+                            <div class="equipment__info">
+                                <div class="equipment__info-number">01</div>
+                                <span>—</span>
+                                <div class="equipment__info-box"></div>
+                            </div>
+                            <div class="equipment__title-slide">Ультразвуковая диагностическая система Mindray DC-7</div>
+                            <div class="equipment-arrow flex">
+                                <div class="equipment-arrow__icon c100 p1">
+                                    <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.674534 4.4356L0.655803 4.4397H8.68566L6.16136 1.90985C6.03775 1.78633 5.96995 1.61902 5.96995 1.44341C5.96995 1.2678 6.03775 1.10165 6.16136 0.977847L6.55414 0.584871C6.67766 0.461359 6.84224 0.393066 7.01775 0.393066C7.19336 0.393066 7.35805 0.460871 7.48156 0.584384L11.8087 4.91111C11.9327 5.03511 12.0005 5.20029 12 5.37599C12.0005 5.55268 11.9327 5.71794 11.8087 5.84175L7.48156 10.1689C7.35805 10.2923 7.19346 10.3602 7.01775 10.3602C6.84224 10.3602 6.67766 10.2922 6.55414 10.1689L6.16136 9.77589C6.03775 9.65258 5.96995 9.48789 5.96995 9.31228C5.96995 9.13677 6.03775 8.98077 6.16136 8.85736L8.71414 6.31336H0.665558C0.3039 6.31336 -2.86102e-06 6.00165 -2.86102e-06 5.64019V5.08438C-2.86102e-06 4.72292 0.312876 4.4356 0.674534 4.4356Z" fill="#3C3F42"/>
+                                    </svg>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                                <div class="equipment-arrow__caption">следующий</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="visit">
+        <div class="wrapper">
+            <div class="visit__top flex">
+                <div class="visit__title flex">
+                    <div class="h1">3D</div>
+                    <div class="h2">тур по клинике</div>
+                </div>
+                <div class="visit__caption">посетите клинику онлайн</div>
+            </div>
+        </div>
+        <div class="visit__box">
+            <img src="images/visit/img.png" alt="">
+        </div>
+    </div>
+
+    <div class="benefit">
+        <div class="wrapper">
+            <div class="benefit__row flex">
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-1.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Принимаем в день обращения</div>
+                </div>
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-2.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Составляем оптимальный и честный плана лечения</div>
+                </div>
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-3.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Одна цена<br> на сайте и в чеке</div>
+                </div>
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-4.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Работаем<br> в выходные и праздничные дни</div>
+                </div>
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-5.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Проводим<br> онлайн-консультации</div>
+                </div>
+                <div class="benefit__coll">
+                    <div class="benefit__icon">
+                        <img src="images/benefit/icon-6.svg" alt="">
+                    </div>
+                    <div class="benefit__desc">Без очередей. Удобная запись<br> к врачу</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="wrapper">
+            <div class="reviews__top">
+                <div class="reviews__icon">
+                    <img src="images/reviews/message.svg" alt="">
+                </div>
+                <div class="h2">Отзывы реальных клиентов</div>
+            </div>
+            <div class="reviews__wrap flex">
+                <div class="reviews__left">
+                    <div class="reviews__tabs">
+                        <div class="reviews__tab active">Видео</div>
+                        <!--div class="reviews__tab">Текстовые</div-->
+                    </div>
+                    <div class="reviews__left-desc">За 2019 год в наше клинике прошли лечение 749 детей и взрослых</div>
+                </div>
+                <div class="reviews__right">
+                    <div class="reviews__content">
+                        <div class="reviews__box">
+                            <div class="reviews__block flex">
+                                <div class="reviews-video">
+                                    <div class="reviews-video__img">
+                                        <img src="images/reviews/img-1.jpg" alt="">
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="reviews-video__play" data-fancybox="reviews">
+                                        <img src="images/reviews/play.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__info">
+                                    <div class="reviews__name">Алина Карташова</div>
+                                    <div class="reviews__time">1:37</div>
+                                </div>
+                            </div>
+                            <div class="reviews__block flex">
+                                <div class="reviews-video">
+                                    <div class="reviews-video__img">
+                                        <img src="images/reviews/img-2.jpg" alt="">
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="reviews-video__play" data-fancybox="reviews">
+                                        <img src="images/reviews/play.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__info">
+                                    <div class="reviews__name">Дмитрий Вдовиченко</div>
+                                    <div class="reviews__time">2:02</div>
+                                </div>
+                            </div>
+                            <div class="reviews__block flex">
+                                <div class="reviews-video">
+                                    <div class="reviews-video__img">
+                                        <img src="images/reviews/img-3.jpg" alt="">
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="reviews-video__play" data-fancybox="reviews">
+                                        <img src="images/reviews/play.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__info">
+                                    <div class="reviews__name">Людмида Винокурова</div>
+                                    <div class="reviews__time">0:59</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="main-doctor__btn btn btn_items">
+                        <span>ЕЩЕ отзывы</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6.14285" y1="1" x2="6.14285" y2="11" stroke="#74828E" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="11" y1="6.14282" x2="1" y2="6.14282" stroke="#74828E" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscription">
+        <div class="wrapper">
+            <div class="subscription__wrap flex">
+                <a href="#" class="subscription__link">
+                    <img src="images/subscription/icon.svg" alt="">
+                    <span>@medcityclinic</span>
+                </a>
+                <div class="subscription__content">
+                    <div class="subscription__title h2">Подпишитесь на Instagram клиники</div>
+                    <div class="subscription__subtitle">В нем мы публикуем полезные материалы, акции и отзывы клиентов клиники</div>
+                    <a href="#" class="subscription__btn btn btn_dark">подписаться</a>
+                </div>
+                <div class="subscription__img">
+                    <img src="images/subscription/img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order">
+        <div class="wrapper">
+            <div class="order__wrap">
+                <div class="order__bg">
+                    <img src="images/order/img.png" alt="">
+                </div>
+                <div class="order__top flex">
+                    <div class="order__coll">
+                        <div class="order__title h2">Запишитесь<br> на приём онлайн</div>
+                    </div>
+                    <div class="order__coll">
+                        <div class="order__subtitle">Заполните форму заявки, мы свяжемся с вами в течение 20 минут </div>
+                    </div>
+                </div>
+                <form action="#" class="order__form flex">
+                    <div class="order__coll">
+                        <div class="order__label order__label_date">
+                            <div class="order__caption">Выберите дату</div>
+                            <input type="text" name="date" class="order__field field datepicker-here" placeholder="1 октября 2019">
+                        </div>
+                        <div class="order__label">
+                            <div class="order__caption">Выберите направление</div>
+                            <select>
+                                <option value="">Стоматология</option>
+                                <option value="">Косметология</option>
+                                <option value="">Медицинские услуги</option>
+                            </select>
+                        </div>
+                        <div class="order__label">
+                            <div class="order__caption">Выберите услугу</div>
+                            <select>
+                                <option value="">Отбеливание</option>
+                                <option value="">Удаление кариеса</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="order__coll">
+                        <div class="order__label">
+                            <div class="order__caption">Ваше имя</div>
+                            <input type="text" name="date" class="order__field field" placeholder="Например: Екатерина">
+                        </div>
+                        <div class="order__label">
+                            <div class="order__caption">Контактный телефон</div>
+                            <input type="text" name="date" class="order__field field phone-mask" placeholder="+7 (000)000-00-00">
+                        </div>
+                        <div class="order__block flex">
+                            <button class="order__btn btn">Записаться</button>
+                            <div class="agreement">Нажимая на кнопку вы соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="map">
+        <div id="map"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__wrap flex">
+                <div class="footer__copyright">© 2019. MEDСИТИ. Все права защищены</div>
+                <a href="#" class="footer__confidentiality" data-src="#confidentiality-modal" data-fancybox data-modal="true">Политика конфиденциальности</a>
+                <a href="#" class="footer__license">Лицензия на оказание услуг</a>
+                <a href="#" class="footer-developer flex">
+                    <div class="footer-developer__logo">
+                        <img src="images/footer/logo-developer.svg" alt="">
+                    </div>
+                    <div class="footer-developer__caption">Сделано c <img src="images/footer/heart.svg" alt=""> Artrepin.studio</div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="confidentiality-modal" style="display: none;">
+        <div class="confidentiality-modal">
+            <div class="confidentiality-modal__wrap">
+                <div class="confidentiality-modal__title">Политика конфиденциальности персональных данных</div>
+                <div class="confidentiality-modal__top flex">
+                    <div class="confidentiality-modal__city">Москва</div>
+                    <div class="confidentiality-modal__date flex">
+                        <div class="date-mask">__ /______ 20__</div>
+                        <span>года</span>
+                    </div>
+                </div>
+                <div class="confidentiality-modal__text">
+                    <p>Настоящая Политика конфиденциальности персональных данных (далее - Политика конфиденциальности) действует в отношении всей информации, которую компания МЕДИЦИНА ПЛЮС (ООО “МЕДИЦИНА ПЛЮС”), расположенная на доменном имени medcitis.ru может получить о Пользователе во время использования сайта компании, предоставляющей  медицинские услуги.</p>
+                    <h6>1. ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</h6>
+                    <ul>
+                        <li>1.1. В Политике конфиденциальности используются следующие термины:</li>
+                        <li>1.1.1. Администрация сайта компании “МЕДИЦИНА ПЛЮС” (далее - Администрация сайта) - уполномоченные сотрудники на управления сайтом, действующие от имени ООО “МЕДИЦИНА ПЛЮС”, которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</li>
+                        <li>1.1.2. “Персональные данные” - любая информация, относящаяся прямо или косвенно к определенному или определяемому физическому лицу (субъекту персональных данных).</li>
+                        <li>1.1.3. “Обработка персональных данных” - любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</li>
+                    </ul>
+                    <p>Настоящая Политика конфиденциальности персональных данных (далее - Политика конфиденциальности) действует в отношении всей информации, которую компания МЕДИЦИНА ПЛЮС (ООО “МЕДИЦИНА ПЛЮС”), расположенная на доменном имени medcitis.ru может получить о Пользователе во время использования сайта компании, предоставляющей  медицинские услуги.</p>
+                    <h6>2. ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</h6>
+                    <ul>
+                        <li>1.1. В Политике конфиденциальности используются следующие термины:</li>
+                        <li>1.1.1. Администрация сайта компании “МЕДИЦИНА ПЛЮС” (далее - Администрация сайта) - уполномоченные сотрудники на управления сайтом, действующие от имени ООО “МЕДИЦИНА ПЛЮС”, которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</li>
+                        <li>1.1.2. “Персональные данные” - любая информация, относящаяся прямо или косвенно к определенному или определяемому физическому лицу (субъекту персональных данных).</li>
+                        <li>1.1.3. “Обработка персональных данных” - любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</li>
+                    </ul>
+                    <p>Настоящая Политика конфиденциальности персональных данных (далее - Политика конфиденциальности) действует в отношении всей информации, которую компания МЕДИЦИНА ПЛЮС (ООО “МЕДИЦИНА ПЛЮС”), расположенная на доменном имени medcitis.ru может получить о Пользователе во время использования сайта компании, предоставляющей  медицинские услуги.</p>
+                    <h6>3. ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</h6>
+                    <ul>
+                        <li>1.1. В Политике конфиденциальности используются следующие термины:</li>
+                        <li>1.1.1. Администрация сайта компании “МЕДИЦИНА ПЛЮС” (далее - Администрация сайта) - уполномоченные сотрудники на управления сайтом, действующие от имени ООО “МЕДИЦИНА ПЛЮС”, которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</li>
+                        <li>1.1.2. “Персональные данные” - любая информация, относящаяся прямо или косвенно к определенному или определяемому физическому лицу (субъекту персональных данных).</li>
+                        <li>1.1.3. “Обработка персональных данных” - любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- end confidentiality-modal -->
+
+    <div id="callback-modal" style="display: none;">
+        <div class="callback__modal modal">
+            <div class="modal__title h2">Запишитесь<br> на консультацию</div>
+            <div class="modal__subtitle">Мы свяжемся с вами в ближайшее время</div>
+            <form action="#" class="modal__form">
+                <div class="modal__label">
+                    <div class="modal__caption">Ваше имя</div>
+                    <input type="text" name="date" class="modal__field field" placeholder="Например: Екатерина">
+                </div>
+                <div class="modal__label">
+                    <div class="modal__caption">Контактный телефон</div>
+                    <input type="text" name="date" class="modal__field field phone-mask" placeholder="+7 (000)000-00-00">
+                </div>
+                <div class="modal__block flex">
+                    <button class="modal__btn btn">Записаться</button>
+                    <div class="agreement">Нажимая на кнопку вы соглашаетесь с <a href="#">политикой конфиденциальности</a></div>
+                </div>
+            </form>
+        </div>
+    </div><!-- end callback-modal -->
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="libs/swiper/swiper.min.js"></script>
+<script src="libs/datepicker/datepicker.min.js"></script>
+<script src="libs/select2/select2.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNvDjJxgH8gYswwJa6ol2zJL1X208jFaE" type="text/javascript"></script>
+<script src="libs/scroll/demo.js"></script>
+<script src="libs/scroll/jquery.mousewheel.js"></script>
+<script src="libs/scroll/smooth-scrollbar.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
